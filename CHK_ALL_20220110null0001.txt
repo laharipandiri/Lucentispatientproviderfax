@@ -1,0 +1,2 @@
+Payee_ID|CheckNbr|CheckDate|CheckAmt|Vendid|Vendor_Name
+T2W0136245|583801|01/10/2022|81.00|EC38532002|EC38532002 Check to Practice

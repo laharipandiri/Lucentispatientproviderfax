@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 17 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Failed_suite__Suite_" class="navigator-link">
+              <span class="suite-name border-failed">Failed suite [Suite]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Failed_suite__Suite_" class="navigator-link ">
+                    <span>C:\Users\lahari.pandiri\Fullautomation\Replatform-Lucentis3\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Failed_suite__Suite_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Failed_suite__Suite_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Failed_suite__Suite_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Failed_suite__Suite_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Failed_suite__Suite_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Failed_suite__Suite_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 17 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite__Suite_" class="hide-methods failed suite-Failed_suite__Suite_"> (hide)</a> <!-- hide-methods failed suite-Failed_suite__Suite_ -->
+                      <a href="#" panel-name="suite-Failed_suite__Suite_" class="show-methods failed suite-Failed_suite__Suite_"> (show)</a> <!-- show-methods failed suite-Failed_suite__Suite_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Failed_suite__Suite_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest" class="method navigator-link" hash-for-method="SearchProviderGroupByLastName">SearchProviderGroupByLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest" class="method navigator-link" hash-for-method="SearchProviderGroupByLastNameInBO">SearchProviderGroupByLastNameInBO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink" class="method navigator-link" hash-for-method="VerifyAddNewBOLinkInTreatmentsTabForPatient">VerifyAddNewBOLinkInTreatmentsTabForPatient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest" class="method navigator-link" hash-for-method="VerifyBONPISearchInTreatmentsTabForPatient">VerifyBONPISearchInTreatmentsTabForPatient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest" class="method navigator-link" hash-for-method="VerifyBONameSearchInTreatmentsTabForPatient">VerifyBONameSearchInTreatmentsTabForPatient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest" class="method navigator-link" hash-for-method="VerifyBenefitsHistoryPageForPatient_DrugReimbursement">VerifyBenefitsHistoryPageForPatient_DrugReimbursement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF" class="method navigator-link" hash-for-method="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF" class="method navigator-link" hash-for-method="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF" class="method navigator-link" hash-for-method="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest" class="method navigator-link" hash-for-method="VerifyPGBOFindPageContent">VerifyPGBOFindPageContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest" class="method navigator-link" hash-for-method="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest" class="method navigator-link" hash-for-method="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest" class="method navigator-link" hash-for-method="Verify_Assignments_MarkAsOutAndCancelOut">Verify_Assignments_MarkAsOutAndCancelOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest" class="method navigator-link" hash-for-method="Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName">Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown" class="method navigator-link" hash-for-method="verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement">verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown" class="method navigator-link" hash-for-method="verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement">verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest" class="method navigator-link" hash-for-method="verify_PG_GP_ListPageContent">verify_PG_GP_ListPageContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite__Suite_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite__Suite_" class="hide-methods passed suite-Failed_suite__Suite_"> (hide)</a> <!-- hide-methods passed suite-Failed_suite__Suite_ -->
+                      <a href="#" panel-name="suite-Failed_suite__Suite_" class="show-methods passed suite-Failed_suite__Suite_"> (show)</a> <!-- show-methods passed suite-Failed_suite__Suite_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite__Suite_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest" class="method navigator-link" hash-for-method="VerifyFieldRequiredMsgForNotesInGP">VerifyFieldRequiredMsgForNotesInGP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Suite_" title="com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest" class="method navigator-link" hash-for-method="VerifyUpdatingNotesToGP">VerifyUpdatingNotesToGP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite__Suite_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite__Suite_" class="panel Failed_suite__Suite_">
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement">
+                  </a> <!-- verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement -->
+                  <span class="method-name">verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b0ae1de8c52e68536df478aa46ae797
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.juno.qa.pages.HubHomeLoginLogoutPage.EnrollInAdminPortal(HubHomeLoginLogoutPage.java:3538)
+	at com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown.verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement(TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the availability of Primary Treating Practice after patient is matched with a Treating Practice in Drug Reimbursement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddNewBOLinkInTreatmentsTabForPatient">
+                  </a> <!-- VerifyAddNewBOLinkInTreatmentsTabForPatient -->
+                  <span class="method-name">VerifyAddNewBOLinkInTreatmentsTabForPatient</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Select a Provider Type] but found [Billing Office]
+	at com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink.VerifyAddNewBOLinkInTreatmentsTabForPatient(TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the Add New Billing Office Link in treatments tab for a patient)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBenefitsHistoryPageForPatient_DrugReimbursement">
+                  </a> <!-- VerifyBenefitsHistoryPageForPatient_DrugReimbursement -->
+                  <span class="method-name">VerifyBenefitsHistoryPageForPatient_DrugReimbursement</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [N] but found [Y]
+	at com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest.VerifyBenefitsHistoryPageForPatient_DrugReimbursement(TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the benefits history tab for a patient account )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_PG_GP_ListPageContent">
+                  </a> <!-- verify_PG_GP_ListPageContent -->
+                  <span class="method-name">verify_PG_GP_ListPageContent</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+	at com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest.verify_PG_GP_ListPageContent(TC04_AdminPortal_PG_GP_VerifyListPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify the table header cols)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement">
+                  </a> <!-- verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement -->
+                  <span class="method-name">verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Ralph] but found [Alex]
+	at com.juno.qa.pages.AdminPortal_Patients_MatchPage.VerifyAbilityToMatchProviderWithPatientAndBOAvailableInTreatmentsTab(AdminPortal_Patients_MatchPage.java:434)
+	at com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown.verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement(TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown.java:126)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the availability of Primary BO after patient is matched with a BO )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName">
+                  </a> <!-- Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName -->
+                  <span class="method-name">Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Added provider ADAMS SERRHEL ( Levine) to the group] but found [Added provider Quantum Vision Center ( Levine) to the group]
+	at com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest.Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName(TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngro.java:213)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the ability to add and ungroup a provider using ProviderLastName in PG-->GP-->Review-->ProvidersTab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH">
+                  </a> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH -->
+                  <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.search_display_box&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4c346f0b924028ba235e406b7a14828
+*** Element info: {Using=class name, value=search_display_box}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+	at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:204)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Rule#2; case#2: Verify that the treatment claim is accepted if patient's available benefits is greater than or equal to patient's responsibility for ACH)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM">
+                  </a> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM -->
+                  <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.search_display_box&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ad9a6f1a16ef62a1866dcc86c3a08d9
+*** Element info: {Using=class name, value=search_display_box}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+	at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:428)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Rule#2; case#2: Verify that the treatment claim is accepted if patient's available benefits is greater than or equal to patient's responsibility for CTM)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP">
+                  </a> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP -->
+                  <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.search_display_box&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed87b52ddce2f4a370eaf3be46383e2a
+*** Element info: {Using=class name, value=search_display_box}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+	at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+	at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:313)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Rule#2; case#2: Verify that the treatment claim is accepted if patient's available benefits is greater than or equal to patient's responsibility for CTP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBONPISearchInTreatmentsTabForPatient">
+                  </a> <!-- VerifyBONPISearchInTreatmentsTabForPatient -->
+                  <span class="method-name">VerifyBONPISearchInTreatmentsTabForPatient</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1639596034] but found []
+	at com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONPISearchInTreatmentsTabForPatient(TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.java:275)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the BO NPI search in treatments tab for a patient)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBONameSearchInTreatmentsTabForPatient">
+                  </a> <!-- VerifyBONameSearchInTreatmentsTabForPatient -->
+                  <span class="method-name">VerifyBONameSearchInTreatmentsTabForPatient</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1639596034] but found []
+	at com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONameSearchInTreatmentsTabForPatient(TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.java:129)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the BO name search in treatments tab for a patient)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN">
+                  </a> <!-- Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN -->
+                  <span class="method-name">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;form-table&apos;]/div/div[1]/table/tbody/tr/td[2]&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e8cee0e233f3381f3c666caf63aac53
+*** Element info: {Using=xpath, value=//*[@id=&apos;form-table&apos;]/div/div[1]/table/tbody/tr/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.juno.qa.pages.AdminPortal_Faxes_AssignmentRulesPage.TotalCountLabelAndValue(AdminPortal_Faxes_AssignmentRulesPage.java:140)
+	at com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN(TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify ability to create assignment rules with Catch outside hours as N)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY">
+                  </a> <!-- Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY -->
+                  <span class="method-name">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;form-table&apos;]/div/div[1]/table/tbody/tr/td[2]&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPANDIRI-E7440&apos;, ip: &apos;10.10.91.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bd3f8c6130b0a697b3ee1fa541d410
+*** Element info: {Using=xpath, value=//*[@id=&apos;form-table&apos;]/div/div[1]/table/tbody/tr/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.juno.qa.pages.AdminPortal_Faxes_AssignmentRulesPage.TotalCountLabelAndValue(AdminPortal_Faxes_AssignmentRulesPage.java:140)
+	at com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY(TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify ability to create assignment rules with Catch outside hours as Y)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Assignments_MarkAsOutAndCancelOut">
+                  </a> <!-- Verify_Assignments_MarkAsOutAndCancelOut -->
+                  <span class="method-name">Verify_Assignments_MarkAsOutAndCancelOut</span>
+                  <div class="stack-trace">java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest.Verify_Assignments_MarkAsOutAndCancelOut(TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Mark As Out And Cancel Out features)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProviderGroupByLastNameInBO">
+                  </a> <!-- SearchProviderGroupByLastNameInBO -->
+                  <span class="method-name">SearchProviderGroupByLastNameInBO</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [67-8767876]
+	at com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest.SearchProviderGroupByLastNameInBO(TC13_AdminPortal_PG_BO_VerifyFindPageTest.java:208)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify ability to search by provider last name in BO)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPGBOFindPageContent">
+                  </a> <!-- VerifyPGBOFindPageContent -->
+                  <span class="method-name">VerifyPGBOFindPageContent</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+	at com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest.VerifyPGBOFindPageContent(TC13_AdminPortal_PG_BO_VerifyFindPageTest.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify PG-->BO-->Find page content)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProviderGroupByLastName">
+                  </a> <!-- SearchProviderGroupByLastName -->
+                  <span class="method-name">SearchProviderGroupByLastName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+	at com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest.SearchProviderGroupByLastName(TC03_AdminPortal_PG_GP_FindGPTest.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify ability to search by provider last name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-failed -->
+          <div class="suite-Failed_suite__Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUpdatingNotesToGP">
+                  </a> <!-- VerifyUpdatingNotesToGP -->
+                  <span class="method-name">VerifyUpdatingNotesToGP</span>
+                  <em>
+(verify the ability to update notes for a GP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-passed -->
+          <div class="suite-Failed_suite__Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFieldRequiredMsgForNotesInGP">
+                  </a> <!-- VerifyFieldRequiredMsgForNotesInGP -->
+                  <span class="method-name">VerifyFieldRequiredMsgForNotesInGP</span>
+                  <em>
+(Verify the field value required message and default value for Caller and Reason dropdowns for Notes tab fields in GP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Suite_-class-passed -->
+        </div> <!-- panel Failed_suite__Suite_ -->
+        <div panel-name="test-xml-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lahari.pandiri\Fullautomation\Replatform-Lucentis3\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Failed suite [Suite]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;SearchProviderGroupByLastName&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest --&gt;
+      &lt;class name=&quot;com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY&quot;/&gt;
+          &lt;include name=&quot;Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest --&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;verify_PG_GP_ListPageContent&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyAddNewBOLinkInTreatmentsTabForPatient&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink --&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest --&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyUpdatingNotesToGP&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyBenefitsHistoryPageForPatient_DrugReimbursement&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyBONPISearchInTreatmentsTabForPatient&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyBONameSearchInTreatmentsTabForPatient&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP&quot;/&gt;
+          &lt;include name=&quot;VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF --&gt;
+      &lt;class name=&quot;com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement&quot;/&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown --&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;VerifyFieldRequiredMsgForNotesInGP&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest --&gt;
+      &lt;class name=&quot;com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+          &lt;include name=&quot;Verify_Assignments_MarkAsOutAndCancelOut&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest --&gt;
+      &lt;class name=&quot;com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseBrowser&quot;/&gt;
+          &lt;include name=&quot;SearchProviderGroupByLastNameInBO&quot;/&gt;
+          &lt;include name=&quot;VerifyPGBOFindPageContent&quot;/&gt;
+          &lt;include name=&quot;OpenBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Suite] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test(failed) (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite__Suite_');
+function tableData_Failed_suite__Suite_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH')
+data.setCell(0, 2, 'com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF')
+data.setCell(0, 3, 231889);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM')
+data.setCell(1, 2, 'com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF')
+data.setCell(1, 3, 223920);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP')
+data.setCell(2, 2, 'com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF')
+data.setCell(2, 3, 223751);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement')
+data.setCell(3, 2, 'com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown')
+data.setCell(3, 3, 200688);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyBONameSearchInTreatmentsTabForPatient')
+data.setCell(4, 2, 'com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest')
+data.setCell(4, 3, 120757);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyBONPISearchInTreatmentsTabForPatient')
+data.setCell(5, 2, 'com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest')
+data.setCell(5, 3, 116305);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement')
+data.setCell(6, 2, 'com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown')
+data.setCell(6, 3, 93093);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyAddNewBOLinkInTreatmentsTabForPatient')
+data.setCell(7, 2, 'com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink')
+data.setCell(7, 3, 90503);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY')
+data.setCell(8, 2, 'com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest')
+data.setCell(8, 3, 71855);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN')
+data.setCell(9, 2, 'com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest')
+data.setCell(9, 3, 71638);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyBenefitsHistoryPageForPatient_DrugReimbursement')
+data.setCell(10, 2, 'com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest')
+data.setCell(10, 3, 62919);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyUpdatingNotesToGP')
+data.setCell(11, 2, 'com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest')
+data.setCell(11, 3, 56498);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName')
+data.setCell(12, 2, 'com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest')
+data.setCell(12, 3, 42043);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Verify_Assignments_MarkAsOutAndCancelOut')
+data.setCell(13, 2, 'com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest')
+data.setCell(13, 3, 40018);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SearchProviderGroupByLastNameInBO')
+data.setCell(14, 2, 'com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest')
+data.setCell(14, 3, 37136);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyFieldRequiredMsgForNotesInGP')
+data.setCell(15, 2, 'com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest')
+data.setCell(15, 3, 30865);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SearchProviderGroupByLastName')
+data.setCell(16, 2, 'com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest')
+data.setCell(16, 3, 22629);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyPGBOFindPageContent')
+data.setCell(17, 2, 'com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest')
+data.setCell(17, 3, 15865);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verify_PG_GP_ListPageContent')
+data.setCell(18, 2, 'com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest')
+data.setCell(18, 3, 13748);
+window.suiteTableData['Failed_suite__Suite_']= { tableData: data, tableDiv: 'times-div-Failed_suite__Suite_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 minutes</span>
+              <div id="times-div-Failed_suite__Suite_">
+              </div> <!-- times-div-Failed_suite__Suite_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyBOLastNameSearchInTreatmentsTabForPatient</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CrossVerifyGPCountsBetweenAlphabetListAndFindPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyNumberOfRecordsBtwFindAndListAllForBO</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyAbilityToAddNotesInGP</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyNumberOfRecordsBtwFindAndListAll</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderName</span>
+                <br/>
+                <span class="ignored-method-name">Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderNPI</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite__Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchProviderGroupByLastName</span>
+                <span class="method-start">10154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=SearchProviderGroupByLastName status=FAILURE method=TC03_AdminPortal_PG_GP_FindGPTe...)</span>
+                <span class="method-start">32787 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">36204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY</span>
+                <span class="method-start">43102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY status=FAILURE method=TC...)</span>
+                <span class="method-start">114959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">115353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN</span>
+                <span class="method-start">121759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN status=FAILURE method=TC...)</span>
+                <span class="method-start">193399 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">193801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_PG_GP_ListPageContent</span>
+                <span class="method-start">200342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=verify_PG_GP_ListPageContent status=FAILURE method=TC04_AdminPortal_PG_GP_VerifyLis...)</span>
+                <span class="method-start">214092 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">216603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyAddNewBOLinkInTreatmentsTabForPatient</span>
+                <span class="method-start">222770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyAddNewBOLinkInTreatmentsTabForPatient status=FAILURE method=TC31_AdminPortal_...)</span>
+                <span class="method-start">313274 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">314419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName</span>
+                <span class="method-start">320861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName status=FAILURE me...)</span>
+                <span class="method-start">362906 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">364891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUpdatingNotesToGP</span>
+                <span class="method-start">371003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyUpdatingNotesToGP status=SUCCESS method=TC12_AdminPortal_PG_GP_VerifyAbilityT...)</span>
+                <span class="method-start">427502 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">430094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBenefitsHistoryPageForPatient_DrugReimbursement</span>
+                <span class="method-start">436199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyBenefitsHistoryPageForPatient_DrugReimbursement status=FAILURE method=TC04_Ad...)</span>
+                <span class="method-start">499119 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">500114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement</span>
+                <span class="method-start">519259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement status=FAILURE method=TC...)</span>
+                <span class="method-start">719948 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">721503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBONPISearchInTreatmentsTabForPatient</span>
+                <span class="method-start">727620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyBONPISearchInTreatmentsTabForPatient status=FAILURE method=TC28_AdminPortal_T...)</span>
+                <span class="method-start">843926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">845105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBONameSearchInTreatmentsTabForPatient</span>
+                <span class="method-start">851346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyBONameSearchInTreatmentsTabForPatient status=FAILURE method=TC28_AdminPortal_...)</span>
+                <span class="method-start">972104 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">973736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH</span>
+                <span class="method-start">991968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH status=FAILURE method=TC44_...)</span>
+                <span class="method-start">1223859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1224564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP</span>
+                <span class="method-start">1240601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP status=FAILURE method=TC44_...)</span>
+                <span class="method-start">1464355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1465199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM</span>
+                <span class="method-start">1481203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM status=FAILURE method=TC44_...)</span>
+                <span class="method-start">1705124 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1705740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement</span>
+                <span class="method-start">1721767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursem...)</span>
+                <span class="method-start">1814861 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1816991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyFieldRequiredMsgForNotesInGP</span>
+                <span class="method-start">1823698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyFieldRequiredMsgForNotesInGP status=SUCCESS method=TC11_AdminPortal_PG_GP_Ver...)</span>
+                <span class="method-start">1854564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1856918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Assignments_MarkAsOutAndCancelOut</span>
+                <span class="method-start">1863051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Verify_Assignments_MarkAsOutAndCancelOut status=FAILURE method=TC11_AdminPortal_Fax...)</span>
+                <span class="method-start">1903070 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1904466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchProviderGroupByLastNameInBO</span>
+                <span class="method-start">1910795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=SearchProviderGroupByLastNameInBO status=FAILURE method=TC13_AdminPortal_PG_BO_Veri...)</span>
+                <span class="method-start">1947932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">1950367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyPGBOFindPageContent</span>
+                <span class="method-start">1956449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=VerifyPGBOFindPageContent status=FAILURE method=TC13_AdminPortal_PG_BO_VerifyFindPa...)</span>
+                <span class="method-start">1972315 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

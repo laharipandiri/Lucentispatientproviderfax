@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="26" passed="2" failed="17" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T11:17:17 EST" name="Failed suite [Suite]" finished-at="2022-03-10T11:50:12 EST" duration-ms="1975388">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T11:17:17 EST" name="Test(failed)" finished-at="2022-03-10T11:50:12 EST" duration-ms="1975388">
+      <class name="com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest@644c78d4]" started-at="2022-03-10T11:23:22 EST" name="OpenBrowser" finished-at="2022-03-10T11:23:29 EST" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyUpdatingNotesToGP()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest@644c78d4]" started-at="2022-03-10T11:23:29 EST" name="VerifyUpdatingNotesToGP" description="verify the ability to update notes for a GP" finished-at="2022-03-10T11:24:25 EST" duration-ms="56498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUpdatingNotesToGP -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest@644c78d4]" started-at="2022-03-10T11:24:25 EST" name="CloseBrowser" finished-at="2022-03-10T11:24:28 EST" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUpdatingNotesToGP status=SUCCESS method=TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest.VerifyUpdatingNotesToGP()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest@644c78d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest -->
+      <class name="com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest@5ed731d0]" started-at="2022-03-10T11:20:31 EST" name="OpenBrowser" finished-at="2022-03-10T11:20:38 EST" duration-ms="6541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="verify_PG_GP_ListPageContent()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest@5ed731d0]" started-at="2022-03-10T11:20:38 EST" name="verify_PG_GP_ListPageContent" description="verify the table header cols" finished-at="2022-03-10T11:20:52 EST" duration-ms="13748" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Parent Provider ID] but found [NPI]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest.verify_PG_GP_ListPageContent(TC04_AdminPortal_PG_GP_VerifyListPageTest.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PG_GP_ListPageContent -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest@5ed731d0]" started-at="2022-03-10T11:20:52 EST" name="CloseBrowser" finished-at="2022-03-10T11:20:54 EST" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_PG_GP_ListPageContent status=FAILURE method=TC04_AdminPortal_PG_GP_VerifyListPageTest.verify_PG_GP_ListPageContent()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest -->
+      <class name="com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest@118102ee]" started-at="2022-03-10T11:48:14 EST" name="OpenBrowser" finished-at="2022-03-10T11:48:21 EST" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Verify_Assignments_MarkAsOutAndCancelOut()[pri:0, instance:com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest@118102ee]" started-at="2022-03-10T11:48:21 EST" name="Verify_Assignments_MarkAsOutAndCancelOut" description="Verify Mark As Out And Cancel Out features" finished-at="2022-03-10T11:49:01 EST" duration-ms="40018" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+at com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest.Verify_Assignments_MarkAsOutAndCancelOut(TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Assignments_MarkAsOutAndCancelOut -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest@118102ee]" started-at="2022-03-10T11:49:01 EST" name="CloseBrowser" finished-at="2022-03-10T11:49:02 EST" duration-ms="1395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Assignments_MarkAsOutAndCancelOut status=FAILURE method=TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest.Verify_Assignments_MarkAsOutAndCancelOut()[pri:0, instance:com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest@118102ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown@315ba14a]" started-at="2022-03-10T11:25:38 EST" name="OpenBrowser" finished-at="2022-03-10T11:25:57 EST" duration-ms="19145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown@315ba14a]" started-at="2022-03-10T11:25:57 EST" name="verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement" description="Verify the availability of Primary BO after patient is matched with a BO " finished-at="2022-03-10T11:29:18 EST" duration-ms="200688" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Ralph] but found [Alex]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Ralph] but found [Alex]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.juno.qa.pages.AdminPortal_Patients_MatchPage.VerifyAbilityToMatchProviderWithPatientAndBOAvailableInTreatmentsTab(AdminPortal_Patients_MatchPage.java:434)
+at com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown.verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement(TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown@315ba14a]" started-at="2022-03-10T11:29:18 EST" name="CloseBrowser" finished-at="2022-03-10T11:29:19 EST" duration-ms="1555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement status=FAILURE method=TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown.verifyPrimaryBOAfterPatientMatchedWithBO_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown@315ba14a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink@1ca25c47]" started-at="2022-03-10T11:20:54 EST" name="OpenBrowser" finished-at="2022-03-10T11:21:00 EST" duration-ms="6167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyAddNewBOLinkInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink@1ca25c47]" started-at="2022-03-10T11:21:00 EST" name="VerifyAddNewBOLinkInTreatmentsTabForPatient" description="Verify the Add New Billing Office Link in treatments tab for a patient" finished-at="2022-03-10T11:22:31 EST" duration-ms="90503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Select a Provider Type] but found [Billing Office]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Select a Provider Type] but found [Billing Office]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink.VerifyAddNewBOLinkInTreatmentsTabForPatient(TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewBOLinkInTreatmentsTabForPatient -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink@1ca25c47]" started-at="2022-03-10T11:22:31 EST" name="CloseBrowser" finished-at="2022-03-10T11:22:32 EST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAddNewBOLinkInTreatmentsTabForPatient status=FAILURE method=TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink.VerifyAddNewBOLinkInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink@1ca25c47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink -->
+      <class name="com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest@5e5073ab]" started-at="2022-03-10T11:47:35 EST" name="OpenBrowser" finished-at="2022-03-10T11:47:41 EST" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyFieldRequiredMsgForNotesInGP()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest@5e5073ab]" started-at="2022-03-10T11:47:41 EST" name="VerifyFieldRequiredMsgForNotesInGP" description="Verify the field value required message and default value for Caller and Reason dropdowns for Notes tab fields in GP" finished-at="2022-03-10T11:48:12 EST" duration-ms="30865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFieldRequiredMsgForNotesInGP -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest@5e5073ab]" started-at="2022-03-10T11:48:12 EST" name="CloseBrowser" finished-at="2022-03-10T11:48:14 EST" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFieldRequiredMsgForNotesInGP status=SUCCESS method=TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest.VerifyFieldRequiredMsgForNotesInGP()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest@5e5073ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest -->
+      <class name="com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest@6821ea29]" started-at="2022-03-10T11:17:18 EST" name="OpenBrowser" finished-at="2022-03-10T11:17:28 EST" duration-ms="10151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="SearchProviderGroupByLastName()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest@6821ea29]" started-at="2022-03-10T11:17:28 EST" name="SearchProviderGroupByLastName" description="verify ability to search by provider last name" finished-at="2022-03-10T11:17:50 EST" duration-ms="22629" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Parent Provider ID] but found [NPI]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest.SearchProviderGroupByLastName(TC03_AdminPortal_PG_GP_FindGPTest.java:156)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProviderGroupByLastName -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest@6821ea29]" started-at="2022-03-10T11:17:50 EST" name="CloseBrowser" finished-at="2022-03-10T11:17:54 EST" duration-ms="3412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProviderGroupByLastName status=FAILURE method=TC03_AdminPortal_PG_GP_FindGPTest.SearchProviderGroupByLastName()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest@6821ea29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest -->
+      <class name="com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:49:02 EST" name="OpenBrowser" finished-at="2022-03-10T11:49:08 EST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="SearchProviderGroupByLastNameInBO()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:49:08 EST" name="SearchProviderGroupByLastNameInBO" description="verify ability to search by provider last name in BO" finished-at="2022-03-10T11:49:46 EST" duration-ms="37136" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [67-8767876]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [67-8767876]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest.SearchProviderGroupByLastNameInBO(TC13_AdminPortal_PG_BO_VerifyFindPageTest.java:208)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProviderGroupByLastNameInBO -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:49:46 EST" name="CloseBrowser" finished-at="2022-03-10T11:49:48 EST" duration-ms="2435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProviderGroupByLastNameInBO status=FAILURE method=TC13_AdminPortal_PG_BO_VerifyFindPageTest.SearchProviderGroupByLastNameInBO()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:49:48 EST" name="OpenBrowser" finished-at="2022-03-10T11:49:54 EST" duration-ms="6082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyPGBOFindPageContent()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:49:54 EST" name="VerifyPGBOFindPageContent" description="Verify PG--&gt;BO--&gt;Find page content" finished-at="2022-03-10T11:50:10 EST" duration-ms="15865" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Parent Provider ID] but found [NPI]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Parent Provider ID] but found [NPI]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest.VerifyPGBOFindPageContent(TC13_AdminPortal_PG_BO_VerifyFindPageTest.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPGBOFindPageContent -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41]" started-at="2022-03-10T11:50:10 EST" name="CloseBrowser" finished-at="2022-03-10T11:50:12 EST" duration-ms="2515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPGBOFindPageContent status=FAILURE method=TC13_AdminPortal_PG_BO_VerifyFindPageTest.VerifyPGBOFindPageContent()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest@240f6c41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:29:19 EST" name="OpenBrowser" finished-at="2022-03-10T11:29:25 EST" duration-ms="6117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyBONPISearchInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:29:25 EST" name="VerifyBONPISearchInTreatmentsTabForPatient" description="Verify the BO NPI search in treatments tab for a patient" finished-at="2022-03-10T11:31:22 EST" duration-ms="116305" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1639596034] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1639596034] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONPISearchInTreatmentsTabForPatient(TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.java:275)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBONPISearchInTreatmentsTabForPatient -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:31:22 EST" name="CloseBrowser" finished-at="2022-03-10T11:31:23 EST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBONPISearchInTreatmentsTabForPatient status=FAILURE method=TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONPISearchInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:31:23 EST" name="OpenBrowser" finished-at="2022-03-10T11:31:29 EST" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyBONameSearchInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:31:29 EST" name="VerifyBONameSearchInTreatmentsTabForPatient" description="Verify the BO name search in treatments tab for a patient" finished-at="2022-03-10T11:33:30 EST" duration-ms="120757" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1639596034] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1639596034] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONameSearchInTreatmentsTabForPatient(TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBONameSearchInTreatmentsTabForPatient -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600]" started-at="2022-03-10T11:33:30 EST" name="CloseBrowser" finished-at="2022-03-10T11:33:31 EST" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBONameSearchInTreatmentsTabForPatient status=FAILURE method=TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest.VerifyBONameSearchInTreatmentsTabForPatient()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest@28c88600] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest -->
+      <class name="com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:17:54 EST" name="OpenBrowser" finished-at="2022-03-10T11:18:01 EST" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:18:01 EST" name="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY" description="Verify ability to create assignment rules with Catch outside hours as Y" finished-at="2022-03-10T11:19:13 EST" duration-ms="71855" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bd3f8c6130b0a697b3ee1fa541d410
+*** Element info: {Using=xpath, value=//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8bd3f8c6130b0a697b3ee1fa541d410
+*** Element info: {Using=xpath, value=//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.juno.qa.pages.AdminPortal_Faxes_AssignmentRulesPage.TotalCountLabelAndValue(AdminPortal_Faxes_AssignmentRulesPage.java:140)
+at com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY(TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.java:146)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:19:13 EST" name="CloseBrowser" finished-at="2022-03-10T11:19:13 EST" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY status=FAILURE method=TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursY()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:19:13 EST" name="OpenBrowser" finished-at="2022-03-10T11:19:19 EST" duration-ms="6406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:19:19 EST" name="Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN" description="Verify ability to create assignment rules with Catch outside hours as N" finished-at="2022-03-10T11:20:31 EST" duration-ms="71638" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e8cee0e233f3381f3c666caf63aac53
+*** Element info: {Using=xpath, value=//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e8cee0e233f3381f3c666caf63aac53
+*** Element info: {Using=xpath, value=//*[@id='form-table']/div/div[1]/table/tbody/tr/td[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.juno.qa.pages.AdminPortal_Faxes_AssignmentRulesPage.TotalCountLabelAndValue(AdminPortal_Faxes_AssignmentRulesPage.java:140)
+at com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN(TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37]" started-at="2022-03-10T11:20:31 EST" name="CloseBrowser" finished-at="2022-03-10T11:20:31 EST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN status=FAILURE method=TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest.Verify_AssignmentRules_CreateAssignmentRule_OustisdeHoursN()[pri:0, instance:com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest@6111ba37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:33:31 EST" name="OpenBrowser" finished-at="2022-03-10T11:33:50 EST" duration-ms="18232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:33:50 EST" name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH" description="Rule#2; case#2: Verify that the treatment claim is accepted if patient&#039;s available benefits is greater than or equal to patient&#039;s responsibility for ACH" finished-at="2022-03-10T11:37:41 EST" duration-ms="231889" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4c346f0b924028ba235e406b7a14828
+*** Element info: {Using=class name, value=search_display_box}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4c346f0b924028ba235e406b7a14828
+*** Element info: {Using=class name, value=search_display_box}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:37:41 EST" name="CloseBrowser" finished-at="2022-03-10T11:37:42 EST" duration-ms="705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH status=FAILURE method=TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_ACH()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:37:42 EST" name="OpenBrowser" finished-at="2022-03-10T11:37:58 EST" duration-ms="16037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:37:58 EST" name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP" description="Rule#2; case#2: Verify that the treatment claim is accepted if patient&#039;s available benefits is greater than or equal to patient&#039;s responsibility for CTP" finished-at="2022-03-10T11:41:42 EST" duration-ms="223751" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed87b52ddce2f4a370eaf3be46383e2a
+*** Element info: {Using=class name, value=search_display_box}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed87b52ddce2f4a370eaf3be46383e2a
+*** Element info: {Using=class name, value=search_display_box}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:313)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:41:42 EST" name="CloseBrowser" finished-at="2022-03-10T11:41:43 EST" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP status=FAILURE method=TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTP()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:41:43 EST" name="OpenBrowser" finished-at="2022-03-10T11:41:59 EST" duration-ms="16004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:41:59 EST" name="VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM" description="Rule#2; case#2: Verify that the treatment claim is accepted if patient&#039;s available benefits is greater than or equal to patient&#039;s responsibility for CTM" finished-at="2022-03-10T11:45:43 EST" duration-ms="223920" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ad9a6f1a16ef62a1866dcc86c3a08d9
+*** Element info: {Using=class name, value=search_display_box}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".search_display_box"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ad9a6f1a16ef62a1866dcc86c3a08d9
+*** Element info: {Using=class name, value=search_display_box}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.SearchDisplayBox(AdminPortal_Patients_TreatmentsPage.java:233)
+at com.juno.qa.pages.AdminPortal_Patients_TreatmentsPage.AddFaxInformationAndTreatmentToEnrolledPatientForMaxPatientResponsibility(AdminPortal_Patients_TreatmentsPage.java:2441)
+at com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM(TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.java:428)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a]" started-at="2022-03-10T11:45:43 EST" name="CloseBrowser" finished-at="2022-03-10T11:45:43 EST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM status=FAILURE method=TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF.VerifyClaimForMaxBalanceAvailable_DrugReimbursement_CTM()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF@53e3a87a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest@182f1e9a]" started-at="2022-03-10T11:24:28 EST" name="OpenBrowser" finished-at="2022-03-10T11:24:34 EST" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyBenefitsHistoryPageForPatient_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest@182f1e9a]" started-at="2022-03-10T11:24:34 EST" name="VerifyBenefitsHistoryPageForPatient_DrugReimbursement" description="Verify the benefits history tab for a patient account " finished-at="2022-03-10T11:25:37 EST" duration-ms="62919" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [N] but found [Y]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [N] but found [Y]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest.VerifyBenefitsHistoryPageForPatient_DrugReimbursement(TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBenefitsHistoryPageForPatient_DrugReimbursement -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest@182f1e9a]" started-at="2022-03-10T11:25:37 EST" name="CloseBrowser" finished-at="2022-03-10T11:25:38 EST" duration-ms="994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBenefitsHistoryPageForPatient_DrugReimbursement status=FAILURE method=TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest.VerifyBenefitsHistoryPageForPatient_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest@182f1e9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest -->
+      <class name="com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown@64b7225f]" started-at="2022-03-10T11:45:43 EST" name="OpenBrowser" finished-at="2022-03-10T11:45:59 EST" duration-ms="16027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown@64b7225f]" started-at="2022-03-10T11:45:59 EST" name="verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement" description="Verify the availability of Primary Treating Practice after patient is matched with a Treating Practice in Drug Reimbursement" finished-at="2022-03-10T11:47:32 EST" duration-ms="93093" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b0ae1de8c52e68536df478aa46ae797]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPANDIRI-E7440', ip: '10.10.91.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LAHARI~1.PAN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b0ae1de8c52e68536df478aa46ae797
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.juno.qa.pages.HubHomeLoginLogoutPage.EnrollInAdminPortal(HubHomeLoginLogoutPage.java:3538)
+at com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown.verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement(TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown@64b7225f]" started-at="2022-03-10T11:47:32 EST" name="CloseBrowser" finished-at="2022-03-10T11:47:35 EST" duration-ms="2129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement status=FAILURE method=TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown.verifyPrimaryTreatingPracticeAfterPatientMatchedWithTreatingPractice_DrugReimbursement()[pri:0, instance:com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown@64b7225f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown -->
+      <class name="com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest@2cab9998]" started-at="2022-03-10T11:22:32 EST" name="OpenBrowser" finished-at="2022-03-10T11:22:38 EST" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest@2cab9998]" started-at="2022-03-10T11:22:38 EST" name="Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName" description="Verify the ability to add and ungroup a provider using ProviderLastName in PG--&gt;GP--&gt;Review--&gt;ProvidersTab" finished-at="2022-03-10T11:23:20 EST" duration-ms="42043" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Added provider ADAMS SERRHEL ( Levine) to the group] but found [Added provider Quantum Vision Center ( Levine) to the group]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Added provider ADAMS SERRHEL ( Levine) to the group] but found [Added provider Quantum Vision Center ( Levine) to the group]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest.Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName(TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngro.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest@2cab9998]" started-at="2022-03-10T11:23:20 EST" name="CloseBrowser" finished-at="2022-03-10T11:23:22 EST" duration-ms="1984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName status=FAILURE method=TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest.Verify_PG_GP_ProvidersTab_AddAndUngroupProviderByProviderLastName()[pri:0, instance:com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest@2cab9998] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

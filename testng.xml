@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test verbose="2" thread-count="1" name="Test" preserve-order="true">
+  
+   <classes>
+   <!--  
+   <class name="com.qa.e2e.CTPWorkflow.tests.New_TC02_CTP_AdminPortal_SearchPatientWithMemberID"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC03_CTP_VerifyEnrollmentLetterInAdmin"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC04_HCPPortal_CTP_UploadDocument"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC05_AdminPortal_CTP_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC06_CTP_VerifyTreatmentList"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC07_CTP_VerifyClaimStatusAfterTreatmentInAdmin"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC08_PaymentSent_CTP"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC09_CTP_AWS_S3_Upload_Check_All"/>
+     <class name="com.qa.e2e.CTPWorkflow.tests.New_TC10_CTP_ValidatingPaymentSite_Paid_Status"/>
+     <class name="com.qa.e2e.CTPWorkflow.tests.New_TC13_VerifyClaimStatusAfterCheckClearInAdmin"/>
+      <class name="com.qa.e2e.CTPWorkflow.tests.New_TC14_CTP_ValidatingPaymentSite_CheckClear_Status"/>    
+       
+      <class name="com.qa.e2e.DeactivationLetterScenario.tests.TC01_HCPPortal_DeactivationLetterScenario_SusvimoEnrollment"/>
+      <class name="com.qa.e2e.DeactivationLetterScenario.tests.TC02_AdminPortal_DeactivationLetterScenario_ChangeStatus"/>
+      <class name="com.qa.e2e.DeactivationLetterScenario.tests.TC03_DeactivationLetterScenario_VerifyNoLongerEligibleLetter"/>
+      
+     <class name="com.qa.e2e.CTMWorkflow.tests.New_TC01_PatientPortal_CTM_LucentisEnrollment"/>
+     <class name="com.qa.e2e.CTMWorkflow.tests.New_TC02_AdminPortal_CTM_SearchPatientWithMemberID"/>
+     <class name="com.qa.e2e.CTMWorkflow.tests.New_TC03_CTM_VerifyEnrollmentLetterInAdmin"/>
+       <class name="com.qa.e2e.CTMWorkflow.tests.New_TC04_HCPPortal_CTM_UploadDocument"/>
+       <class name="com.qa.e2e.CTMWorkflow.tests.New_TC05_AdminPortal_CTM_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.CTMWorkflow.tests.New_TC06_CTM_VerifyClaimStatusAfterTreatmentInAdmin"/>
+        <class name="com.qa.e2e.CTMWorkflow.tests.New_TC07_PaymentSent_CTM"/>
+         <class name="com.qa.e2e.CTMWorkflow.tests.New_TC08_CTM_AWS_S3_Upload_Check_All"/>
+       <class name="com.qa.e2e.CTMWorkflow.tests.New_TC10_CTM_AWS_S3_Upload_Check_Clear"/>
+    
+    <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC01_PatientPortal_GKRejectScenarios"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC02_GKRejectScenarios_UploadDocument"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC03_GKRejectScenarios_treatment"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC04_GKRejectScenarios_SearchPatient"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC05_GKRejectScenarios_ChangeStatus"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC06_GKRejectScenarios_UploadDocument"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC07_GKRejectScenarios_Treatment"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC08_GKRejectScenarios_UploadDocument"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC09_GKRejectScenarios_FaxAndTreatment"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC10_GKRejectScenarios_TreatmentList"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC11_GKRejectScenarios_RepGKByPass"/>
+     <class name="com.qa.e2e.GKRejectClaimDuplicateClaimReprocessWithGKByPass.tests.TC12_GKRejectScenarios_ReprocessWithGK"/>
+     
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC01_PatientPortal_ACH_LucentisEnrollment"/>
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC02_AdminPortal_ACH_SearchPatientWithMemberID"/>
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC03_ACH_VerifyEnrollmentLetterInAdmin"/>
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC04_ACH_HCPPortal_UploadDocument"/>
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC05_AdminPortal_ACH_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.ACHWorkflow.test.New_TC06_PaymentSent_ACH"/>
+     
+         
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC01_PatientPortal_LAPLucentisEnrollment"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC02_AdminPortal_LapEnrollment_SearchPatientWithMemberID"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC03_LapEnrollment_VerifyEnrollmentLetterInAdmin"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC04_HCPPortal_LapEnrollment_UploadDocument"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC05_AdminPortal_LapEnrollment_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC06_LapEnrollment_PaymentSent_CTP"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC07_AWS_S3_LapEnrollment_Upload_Check_All"/>
+      <class name="com.qa.e2e.LapEnrollment.test.New_TC08_AWS_S3_LapEnrollment_Upload_Check_Clear"/>
+      
+      <class name="com.qa.e2e.TreatmentCancelReject.tests.TC01_PatientPortal_TreatmentCancel_LucentisEnrollment"/>
+      <class name="com.qa.e2e.TreatmentCancelReject.tests.TC02_HCPPortal_TreatmentCancel_UploadDocument"/>
+       <class name="com.qa.e2e.TreatmentCancelReject.tests.TC03_AdminPortal_TreatmentCancel_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.TreatmentCancelReject.tests.TC04_AdminPortal_CancelTreatmentSusvimo"/>
+        <class name="com.qa.e2e.TreatmentCancelReject.tests.TC05_HCPPortal_TreatmentReject_UploadDocument"/>
+     <class name="com.qa.e2e.TreatmentCancelReject.tests.TC06_AdminPortal_TreatmentReject_AddIncomingFaxAndTreatmentTest"/>
+      
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC01_PatientPortal_MaxAccum_LucentisEnrollment"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC02_HCPPortal_MaxAccum_UploadDocument"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC03_AdminPortal_MaxAccum_AddIncomingFaxAndTreatmentTest"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC04_PaymentSent_MaxAccum_CTP"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC05_AWS_S3_MaxAccum_Upload_Check_All"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC06_AWS_S3_MaxAccum_Upload_Check_Clear"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC07_AWS_MaxAccum_Lamda_ExecuteSchduler"/>
+      <class name="com.qa.e2e.TreatmentWithMaxAccum.tests.TC08_MaxAccum_VerifyLowBalanceLetterInAdmin"/>
+      
+      
+      <class name="com.qa.e2e.TwoDrugEnrollmentLucentisSusvimo.test.TC01_TwoDrugEnrollment_LucentisEnrollment"/>
+       <class name="com.qa.e2e.TwoDrugEnrollmentLucentisSusvimo.test.TC02_TwoDrugEnrollment_SearchPatientWithMemberID"/>
+        <class name="com.qa.e2e.TwoDrugEnrollmentLucentisSusvimo.test.TC03_TwoDrugEnrollment_VerifyEnrollmentLetterInAdmin"/>
+        <class name="com.qa.e2e.TwoDrugEnrollmentLucentisSusvimo.test.TC04_TwoDrugEnrollment_UploadDocument"/>
+      <class name="com.qa.e2e.TwoDrugEnrollmentLucentisSusvimo.test.TC05_TwoDrugEnrollment_FaxAndTreatmentTest"/>
+       
+       
+      <class name="com.Xolairadmin.qa.SmokeScript.TC01_XolairAdminPortal_Login"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC02_XolairAdminPortal_HomePageContentAndTabVerify"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC04_XolairAdminPortal_VerifyEnrollPatientField"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC05_XolairAdminPortal_SearchPatientTabVerification"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC06_AdminPortal_Providers"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC07_AdminPortal_Payments"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC08_AdminPortal_Faxes"/>
+      <class name="com.Xolairadmin.qa.SmokeScript.TC09_AdminPortal_Admin"/>
+    
+     
+           
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC01_HCPPortal_HCPPortal_PopUp"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC02_HCPPortal_VerifyHomePageContent"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC03_HCPPortal_LoginTest"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC04_HCPPortal_VerifyNonAuthenticatedMenuOptions"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC05_HCPPortal_VerifyAuthenticatedMenuOptions"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC06_HCPPortal_VerifyPatientSearchPage"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC07_HCPPortal_VerifyPatientReviewpage"/>
+      <class name="com.XolairHCPPortal.qa.SmokeScript.TC08_HCPPortal_VerifyUserAccount"/>
+      
+      
+      <class name="com.XolairPatientPortal.qa.SmokeScript.TC01_PatientPortal_VerifyPatientPopUpFunctionality"/>
+      <class name="com.XolairPatientPortal.qa.SmokeScript.TC04_PatientPortal_VerifyUserLandingPageLoggedIn"/>
+      <class name="com.XolairPatientPortal.qa.SmokeScript.TC03_PatientPortal_VerifyLoginMyAccountSection"/>
+      <class name="com.XolairPatientPortal.qa.SmokeScript.TC02_PatientPortal_VerifyHomePageContent"/>
+      
+ -->
+<class name="com.qa.regression.adminportal.patients.tests.TC01_AdminPortal_UpdatePatientInfoAndVerifyInHCPPortalTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC02_AdminPortal_VerifyPatientAndInsuranceInfoAfterEnrollmentTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC03_ExternalPortal_Enrollment"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC04_AdminPortal_VerifyBenefitsHistoryForPatientsTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC05_AdminPortal_Patients_VerifyAbilityToAddHelpDeskNotes"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC06_AdminPortal_Patients_VerifyUpdatehelpDeskNotesTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC07_AdminPortal_Patients_VerifyDropdownValuesInNotesTabTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC08_AdminPortal_Patients_VerifyFindPageContentTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC09_AdminPortal_Patients_MatchPatientWithPhysicianByProviderName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC10_AdminPortal_Patients_MatchPatientWithPhysicianByProviderLastName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC11_AdminPortal_Patients_MatchPatientWithPhysicianByProviderNPI"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC12_AdminPortal_Patients_MatchPatientWithPhysicianByGPName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC13_AdminPortal_Patients_MatchPatientWithPhysicianByGPLastName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC14_AdminPortal_Patients_MatchPatientWithPhysicianByGPNPI"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC15_AdminPortal_Patients_MatchPatientWithPhysicianByBOName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC16_AdminPortal_Patients_MatchPatientWithPhysicianByBOLastName"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC17_AdminPortal_Patients_MatchPatientWithPhysicianByBONPI"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC18_AdminPortal_Patients_VerifyRequiredFieldsInMatchPageTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC19_AdminPortal_Patients_VerifyFaxInfoTabPage"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC20_AdminPortal_Patients_VerifyReadOnlyFieldsInTreatmentsTab"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC21_AdminPortal_Patients_VerifyRequiredFieldsInTreatmentsTabTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC22_AdminPortal_Patients_VerifySpecificRequiredFieldMsgInTreatmentsTabTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC23_AdminPortal_Patients_VerifyDOSAndEOBDatePickersFutureDatesDisabledTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC24_AdminPortal_Patients_VerifyEOBDatePriorToDOSMsgTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC25_AdminPortal_TreatmentsTab_VerifyDOSAndEOBDateFieldsWithNonNumericCharsTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC26_AdminPortal_TreatmentsTab_VerifyRejectReasonDropdownValues"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC27_AdminPortal_TreatmentsTab_VerifyPatientPaysFieldDefaultValueTest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC28_AdminPortal_TreatmentsTab_VerifyBOSearchAutosuggest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC29_AdminPortal_TreatmentsTab_VerifyBOAvailabilityInDropdown"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC30_AdminPortal_TreatmentsTab_VerifyAbilityToResetBOSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC31_AdminPortal_TreatmentsTab_VerifyAddNewBillingOfficeLink"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC32_AdminPortal_VerifyShipToAddressUpdate_CTM"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC33_AdminPortal_TreatmentsTab_VerifyTreatingPracticeAvailabilityInDropdown"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC34_AdminPortal_TreatmentsTab_VerifyAbilityToResetGPSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC35_AdminPortal_Verify_Address2Update"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC36_AdminPortal_TreatmentsTab_VerifyGPSearchAutosuggest"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC37_AdminPortal_TreatmentsTab_VerifyAddNewPracticeLocationLink"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC38_AdminPortal_Active_VerifyMemberIDSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC39_AdminPortal_Active_VerifyPartnerPatientIDSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC40_AdminPortal_Active_VerifyCardIDSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC41_AdminPortal_Active_VerifyEnrollDateSearch"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC42_AdminPortal_VerifyMaxBenefitsExceeded"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC43_AdminPortal_TreatmentsTab_VerifyPayToPracticeDefaultSelection"/>
+<class name="com.qa.regression.adminportal.patients.tests.TC44_AdminPortal_TreatmentsTab_VerifyClaimCreationF"/>
+
+<class name="com.Replatform.qa.Fax.test.New_TC01_HCPPortal_UploadDocument"/>
+<class name="com.Replatform.qa.Fax.test.New_TC04_HCPPortal_UploadDocument"/>
+<class name="com.Replatform.qa.Fax.test.TC01_HCPPortal_UploadDocument"/>
+<class name="com.Replatform.qa.Fax.test.TC02_AdminPortal_AdminCloneAFax"/>
+<class name="com.Replatform.qa.Fax.test.TC03_AdminPortal_AdminCloneFaxWithCard"/>
+<class name="com.Replatform.qa.Fax.test.TC05_AdminPortal_Faxes_IncomingFaxesReviewPageContentTest"/>
+<class name="com.Replatform.qa.Fax.test.TC06_AdminPortal_Faxes_ListAll_FindPageTest"/>
+<class name="com.Replatform.qa.Fax.test.TC07_AdminPortal_Faxes_Outgoing_FindPageTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC08_AdminPortal_Faxes_Assignments_VerifyFaxCountWrongErrorTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC09_AdminPortal_Faxes_Assignments_VerifyRequiredFieldsMsg"/>
+ <class name="com.Replatform.qa.Fax.test.TC10_AdminPortal_Faxes_Assignments_VerifyFaxIDDoesNotExistMsg"/>
+ <class name="com.Replatform.qa.Fax.test.TC11_AdminPortal_Faxes_Assignments_VerifyMarkAsOutTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC12_AdminPortal_Faxes_AssignmentRules_AddNewAssignmentRuleTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC13_AdminPortal_Faxes_AssignmentRules_VerifyFieldValidationMsgTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC14_AdminPortal_Faxes_AssignmentRules_UpdateAssignmentRuleTest"/>
+ <class name="com.Replatform.qa.Fax.test.TC15_AdminPortal_Faxes_Assignments"/>
+ <class name="com.Replatform.qa.Fax.test.TC16_AdminPortal_Faxes_Assignments_VerifyPage"/>
+
+<class name="com.adminXolair.qa.providerstest.tests.TC01_AdminPortal_PG_GP_VerifyRequiredFieldsInGPNewPage"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC02_AdminPortal_PG_GP_VerifyAbilityToCreateNewGP"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC03_AdminPortal_PG_GP_FindGPTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC04_AdminPortal_PG_GP_VerifyListPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC05_AdminPortal_PG_GP_VerifyUpdatesToGPAndCardInfoPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC06_AdminPortal_PG_GP_VerifyProvidersTabInGPAndCardInfoPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC07_AdminPortal_PG_GP_VerifyMandatoryFieldsInProvidersTabTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC08_AdminPortal_PG_GP_VerifyAbilityToAddPhysicianInGPAndUngroupGPInPhysicianParentProvidersTabTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC09_AdminPortal_PG_GP_VerifyAbilityToAddAndUngroupPhysicianInGPTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC10_AdminPortal_PG_GP_NavigateToPatientInfoTabFromGPTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC11_AdminPortal_PG_GP_VerifyAbilityToAddNotesToGPTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC12_AdminPortal_PG_GP_VerifyAbilityToUpdateNotesInGPTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC13_AdminPortal_PG_BO_VerifyFindPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC14_AdminPortal_PG_BO_VerifyAbilityToCreateNewBO"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC15_AdminPortal_PG_BO_VerifyRequiredFieldsInBONewPage"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC16_AdminPortal_PG_BO_VerifyUpdatesToBOAndCardInfoPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC17_AdminPortal_PG_BO_VerifyProvidersTabInBOAndCardInfoPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC18_AdminPortal_PG_BO_VerifyMandatoryFieldsInProvidersTabTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC19_AdminPortal_PG_BO_VerifyAbilityToAddPhysicianInBOAndUngroupBOInPhysicianProvidersTabTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC20_AdminPortal_PG_BO_NavigateToPatientInfoTabFromBOTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC21_AdminPortal_PG_BO_VerifyTabsInBOReview"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC22_AdminPortal_PG_BO_VerifyAbilityToAddNotesToBOTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC23_AdminPortal_PG_BO_VerifyAbilityToUpdateNotesInBOTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC24_AdminPortal_PG_BO_VerifyAbilityToAddAndUngroupPhysicianInBOTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC25_AdminPortal_PG_BO_VerifyAbilityToAddGPInBOAndUngroupBOInGPParentProvidersTabTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC26_AdminPortal_PG_BO_VerifyListPageTest"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC27_AdminPortal_PG_GP_VerifyZipCodeUpdates"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC28_AdminPortal_PG_BO_VerifyZipCodeUpdates"/>
+<class name="com.adminXolair.qa.providerstest.tests.TC29_AdminPortal_PG_BO_VerifyPaymentsTab"/>
+
+        </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  
